@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "pizza-hot"
+  "defaultProject": "pizza-hot",
+  "cli": {
+    "analytics": "1a63f354-97d9-43ae-91a3-a14e6bebbc49"
+  }
 }

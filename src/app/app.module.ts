@@ -1,9 +1,12 @@
-import { Hello } from './components/hello.component';
+import { NavigationModule } from './shared/components/navigation/navigation.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
+import { Hello } from './components/hello.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -11,7 +14,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
+    // COMPONENTS MODULES
+    NavigationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

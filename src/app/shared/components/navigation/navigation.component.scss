@@ -1,0 +1,19 @@
+.navbar-brand {
+    width: 140px;
+
+    img {
+        filter: contrast(200%);
+
+    }
+}
+a {
+    color: var(--bs-white);
+    text-transform: capitalize;
+    letter-spacing: .07rem;
+
+    transition: .1s ease-in;
+
+    &:hover {
+        color: var(--bs-red);
+    }
+}

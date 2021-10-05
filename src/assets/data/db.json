@@ -1,0 +1,42 @@
+{
+	"ofertas": [
+	{
+		"id":1,
+		"title": "Pizza calabresa",
+		"description":"Sabor Calabresa com queijo",
+		"price": 30.00,
+		"feature":true,
+		"ad":"Calabresas esas",
+		"images":[{"url": ""}]
+	},
+	{
+		"id":2,
+		"title":"Pizza de Pimenta",
+		"description": "Pizza sabor pimenta Para quem tem coragem",
+		"price": 60.00,
+		"feature":true,
+		"ad":"ZePimentão",
+		"images":[{"url":""}]
+	},
+	{
+		"id":3,
+		"title":"Pizza de Coxinha",
+		"description": "Pizza sabor Coxinha para engordar",
+		"price": 80.00,
+		"feature":true,
+		"ad":"Coxinhas do sul",
+		"images":[{"url":""}]
+	}],
+	"localization":[{
+		"id":1,
+		"description":"Rua tomaranos bagos,255,SP"
+	},
+	{
+		"id":2,
+		"description":"Avenida adi,455,BA"
+	},
+	{
+		"id":2,
+		"description":"Rua da prosperidade,355,MG"
+	}]
+}

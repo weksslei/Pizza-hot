@@ -1,5 +1,5 @@
 {
-	"ofertas": [
+	"Offers": [
 	{
 		"id":1,
 		"title": "Pizza calabresa",
@@ -27,7 +27,7 @@
 		"ad":"Coxinhas do sul",
 		"images":[{"url":""}]
 	}],
-	"localization":[{
+	"Localization":[{
 		"id":1,
 		"description":"Rua tomaranos bagos,255,SP"
 	},

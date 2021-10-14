@@ -1,3 +1,4 @@
+import { CardsModule } from './../cards/cards.module';
 import { OfertasComponent } from './../ofertas/ofertas.component';
 import { NavigationModule } from './../../shared/components/navigation/navigation.module';
 import { HomeComponent } from './home.component';
@@ -8,7 +9,8 @@ import { CommonModule } from '@angular/common';
   declarations: [HomeComponent, OfertasComponent],
   imports: [
     CommonModule,
-    NavigationModule
+    NavigationModule,
+    CardsModule
   ],
   exports: [HomeComponent]
 })

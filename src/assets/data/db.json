@@ -7,7 +7,11 @@
 		"price": 30.00,
 		"feature":true,
 		"ad":"Calabresas esas",
-		"images":[{"url": ""}]
+		"images":[
+			{
+				"url": "../../assets/imagens/pz1.png"
+				}
+			]
 	},
 	{
 		"id":2,
@@ -16,7 +20,7 @@
 		"price": 60.00,
 		"feature":true,
 		"ad":"ZePimentão",
-		"images":[{"url":""}]
+		"images":[{"url":"../../assets/imagens/p2.png"}]
 	},
 	{
 		"id":3,
@@ -25,7 +29,7 @@
 		"price": 80.00,
 		"feature":true,
 		"ad":"Coxinhas do sul",
-		"images":[{"url":""}]
+		"images":[{"url":"../../assets/imagens/p3.jpg"}]
 	}],
 	"Localization":[{
 		"id":1,

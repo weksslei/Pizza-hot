@@ -1,0 +1,23 @@
+.card-img-top{
+    border-width: 2200px;
+}
+
+img{
+    height: 225px;
+}
+.card{
+    border-color: rgb(102, 102, 102);
+}
+.list-group-item{
+    border-color: rgb(102, 102, 102);
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+button{
+    font-weight: 400;
+    border-color: rgb(255, 153, 0);
+}

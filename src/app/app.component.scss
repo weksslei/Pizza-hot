@@ -1,0 +1,15 @@
+img {
+    filter: contrast(200%);
+    background-color: red;
+    width: 140px;
+}
+a {
+    color: var(--bs-white);
+    text-transform: capitalize;
+    letter-spacing: .07rem;
+    transition: .1s ease-in;
+
+    &:hover {
+        color: var(--bs-red);
+    }
+}

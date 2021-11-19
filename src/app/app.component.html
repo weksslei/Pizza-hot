@@ -1,1 +1,30 @@
-<app-home></app-home>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img class="img-fluid" src="../../../../assets/imagens/logo.png" />
+        </a>
+        <div class="col-md-6">
+            <input type="text" class="form-control inpTex" placeholder="Pesquise por Pizzas">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- <form class="d-flex ">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+
+        <div id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" routerLink="/">Monte sua Pizza</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/">Contate-nos</a></li>
+                <li class="nav-item"><a class="nav-link btn" routerLink="/">login</a></li>
+                <li class="nav-item"><a routerLinkActive="active" routerLink="/cards" class="nav-link">Sabores</a></li>
+                <li class="nav-item"><a routerLinkActive="active" routerLink="/ofertas" class="nav-link">Ofertas do dia</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>

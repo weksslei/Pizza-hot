@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: "login",
@@ -7,5 +7,9 @@ import { Component } from "@angular/core";
 })
 
 export class LoginComponent{
-    
+   
+    @Input()
+    public email= "algum@email.com";
+    @Input()
+    public? :string ;
 }
